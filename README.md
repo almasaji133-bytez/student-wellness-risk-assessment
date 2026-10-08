@@ -6,9 +6,13 @@ A small educational prototype for exploring how academic and lifestyle factors m
 
 [Open the Student Wellness Risk Assessment app](https://student-wellness-risk-assessment-4y7ck5rd4tk2oh9omhbq9a.streamlit.app/)
 
-## Project status
 
-The dataset has been added and received an initial inspection. The project is at the data-exploration stage; preprocessing, model training, and the Streamlit prediction flow are still pending.
+
+## Project Status
+
+The prototype is implemented and deployed. It uses a trained Random Forest model to predict the stress-level category represented in the dataset from four input features. The Streamlit app provides predictions, general non-medical suggestions, and global model feature importance.
+
+This is a prototype for educational demonstration. Its predictions are not a diagnosis or a validated assessment of a student’s actual stress or wellness.
 
 ## Planned workflow
 
