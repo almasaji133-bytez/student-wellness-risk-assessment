@@ -2,6 +2,10 @@
 
 A small educational prototype for exploring how academic and lifestyle factors might be used to provide a **wellness-risk awareness indicator**. It is not a medical or psychological assessment and does not diagnose any condition.
 
+## Live Demo
+
+[Open the Student Wellness Risk Assessment app](https://student-wellness-risk-assessment-4y7ck5rd4tk2oh9omhbq9a.streamlit.app/)
+
 ## Project status
 
 The dataset has been added and received an initial inspection. The project is at the data-exploration stage; preprocessing, model training, and the Streamlit prediction flow are still pending.
