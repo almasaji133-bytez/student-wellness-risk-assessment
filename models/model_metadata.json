@@ -1,0 +1,32 @@
+{
+  "model_name": "Random Forest",
+  "feature_columns": [
+    "Extracurricular_Hours_Per_Day",
+    "Social_Hours_Per_Day",
+    "Physical_Activity_Hours_Per_Day",
+    "GPA"
+  ],
+  "target_column": "Stress_Level",
+  "classes": [
+    "High",
+    "Low",
+    "Moderate"
+  ],
+  "cross_validation": {
+    "cv_macro_f1_mean": 0.5943562773705819,
+    "cv_macro_f1_std": 0.013005124236112506,
+    "cv_balanced_accuracy_mean": 0.6049394564059185
+  },
+  "test_metrics": {
+    "accuracy": 0.595,
+    "balanced_accuracy": 0.5492821547344063,
+    "macro_f1": 0.5402496543102305
+  },
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified": true,
+    "cv_folds": 5
+  },
+  "interpretation_note": "Learns labels from the selected dataset only; not a validated or clinical wellness-risk estimate."
+}

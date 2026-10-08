@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+
+# Notebooks and local tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Generated model and local data (review before committing)
+models/*.joblib
+!models/wellness_model.joblib
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
